@@ -33,7 +33,7 @@ sudo service tor start
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit these variables in `bruteforce_login.py`:
 
