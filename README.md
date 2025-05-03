@@ -2,7 +2,7 @@
 
 An advanced Python-based web login bruteforcer for penetration testing and ethical hacking. Supports CSRF token extraction, multi-threading, proxy/Tor routing, lockout detection, logging, and HTML reporting.
 
-## 🧰 Features
+## Features
 
     CSRF Token support
     Multi-threaded login attempts
@@ -13,7 +13,7 @@ An advanced Python-based web login bruteforcer for penetration testing and ethic
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
     * Python 3.7+
     * Kali Linux (recommended)
@@ -47,7 +47,7 @@ USE_TOR = False  # Set to True to use Tor
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ```bash
 python3 bruteforce_login.py
@@ -58,30 +58,10 @@ python3 bruteforce_login.py
 
 ---
 
-## 📁 Example Output
+## Example Output
 
 ```
 [2025-05-03 12:21:15] Starting brute-force on http://192.168.1.100/dvwa/login.php as 'admin'...
 [2025-05-03 12:21:29] Password found: password123
 [+] HTML report saved to bruteforce_report.html
 ```
-
----
-
-## 🔒 Disclaimer
-
-This tool is intended for educational use and legal penetration testing only. Do **not** use on systems you do not own or have explicit permission to test.
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 💡 Author
-
-Created with ❤️ for ethical hacking labs and CTF practice.
-
----
